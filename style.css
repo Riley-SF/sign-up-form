@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'troika';
+    src: url('fonts/troika.woff2') format('woff2'),
+            url('fonts/troika.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, rgb(128, 8, 78), rgb(14, 16, 112));
+    height: 100vh;
+}
+
+header {
+    margin-top: 20vh;
+    height: 100px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0 0 0 / 50%);
+}
+
+header img {
+    height: 80%;
+    width: auto;
+    
+}
+
+header div {
+    color: white;
+    font-family: troika, 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1px;
+    transform: scaleY(1.5);
+    transform-origin: center;
+}
+
+main {
+    background-color: white;
+    width: 60vw;
+}
